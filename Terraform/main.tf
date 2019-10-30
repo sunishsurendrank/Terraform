@@ -2,7 +2,7 @@ provider "azurerm" {
 }
 
 variable "prefix" {
-  default = "ITinfraTutorial1"
+  default = "ITinfraTutorial2"
 }
 
 resource "azurerm_resource_group" "main" {
